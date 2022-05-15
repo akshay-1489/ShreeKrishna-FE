@@ -2,3 +2,27 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.example-spacer {
+  flex: 1 1 auto;
+}
+.btw-space{
+  margin: 0 15px 0 0;
+}
+.text-decorate{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.text-align-center{
+  flex: 1 1 auto;
+}
+.footer {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin: 0 auto
+}
